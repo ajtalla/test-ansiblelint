@@ -12,3 +12,5 @@ jobs:
       - run: pip install ansible ansible-lint
       - run: ansible-lint --version
       - run: ansible-lint .
+      - name: Lint playbook
+         uses: ansible-community/ansible-lint-action@main
