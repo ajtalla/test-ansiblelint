@@ -11,3 +11,4 @@
   handlers:
     - name:
       service: name=apache2 state=restarted
+
