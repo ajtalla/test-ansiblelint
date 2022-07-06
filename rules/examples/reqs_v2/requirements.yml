@@ -1,5 +1,0 @@
----
-roles:
-  - name: geerlingguy.mysql
-collections:
-  - name: ssbarnea.molecule
